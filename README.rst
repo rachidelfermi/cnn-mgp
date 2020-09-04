@@ -1,17 +1,18 @@
 
+|build-status| |docs|
 
+    
 Convolutional Neural Networks for Metagenomics Gene Prediction(CNN-MGP)
 --------------------------------------------
 
 CNN-MGP is a metagenomic ORF finding tool for the prediction of protein coding genes in short, environmental DNA sequences with unknown phylogenetic origin. CNN-MGP is based on 10  models trained on 10 pre-defined GC content ranges. The scripts extract all ORFS, one hot ecoded them afterward feeds the ORFS to the right model. 
-CNN-MGP analyses can be performed via the CNN-MGP website `coming soon`, or alternatively you can run the script from the commande line. The instructions below discuss use of CNN-MGP at the command line, following a general overview of how CNN-MGP works.
+CNN-MGP analyses can be performed via the CNN-MGP website `Coming soon <https://github.com/hyattpd/Prodigal>`_, or alternatively you can run the script from the commande line. The instructions below discuss use of CNN-MGP at the command line, following a general overview of how CNN-MGP works.
 
 
 Predicting genes
 -----------------------------------------------------------------------
 
 If metagenomic fragements are submitted, CNN-MGP first extracts all complete and incomplete open reading frames (ORFs) using our integrated orf finder (casting ORFS less than 80 bp), The user customize the desirable parametre for the script and the output is eather the predicted nucliotide CDS, protein sequences or both.
-
 
 Table of Contents
 -------------------------------------
@@ -28,23 +29,23 @@ License
 
 Use or reproduction of these materials, in whole or in part, by any commercial organization whether or not for non-commercial (including research) or commercial purposes is allowed.
 
+
 Citation
 --------
 
-Al-Ajlan, A., El Allali, A. CNN-MGP: Convolutional Neural Networks for Metagenomics Gene Prediction. [Epub ahead of print](https://doi.org/10.1007/s12539-018-0313-4)
+Alcock et al. 2019. CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database. Nucleic Acids Research, gkz935. [Epub ahead of print]  [`CNN-MGP <https://doi.org/10.1007/s12539-018-0313-4>`_]
 
 Support & Bug Reports
 ----------------------
 
-Please log an issue on [github issue](https://github.com/rachidelfermi/cnn-mgp/issues).
+Please log an issue on `github issue <https://github.com/rachidelfermi/cnn-mgp/issues>`_.
 
-You can email the CARD curators or developers directly at  `rachid.elfermi@gmail.com`.
- 
+You can email the CARD curators or developers directly at `rachid.elfermi@gail.com <rachid.elfermi@gail.com>`_.
 
 Python version
 --------------------
 
--Install python 3.7.7 (64bit) from the officiel website [Python 3.7.7](https://www.python.org/downloads/release/python-377/) 
+-Install python 3.7.7 (64bit) from the officiel website `Python 3.7.7 <https://www.python.org/downloads/release/python-377/>`_.
 
 Requirements
 --------------------
@@ -86,36 +87,40 @@ Requirements
 - wrapt==1.12.1
 - zipp==3.1.0
 
+
 Install Dependencies
 --------------------
 
-- pip3 install -r requirements.txt
+ pip3 install -r requirements.txt
 - or
 - pip3 install -r requirements.txt --user
+
 
 Help Menu and Usage
 ----------------------
 
 The following command will bring up CNN-MGP's main help menu:
 
+.. code-block:: sh
 
-   `CNN-MGP --help`
+   CNN-MGP --help
 
+.. code-block:: sh
 
       usage: CNN-MGP <command> [<args>]
             commands are:
                ---------------------------------------------------------------------------------------
-               -i 
+               -i
                ---------------------------------------------------------------------------------------
-               
+
                load the input file(fasta)
-               
+
                ---------------------------------------------------------------------------------------
                -o
                ---------------------------------------------------------------------------------------
-  
-                Specify the output file name  
-                
+
+              Specify the output file name 
+
                ---------------------------------------------------------------------------------------
                -min 
                ---------------------------------------------------------------------------------------
@@ -123,7 +128,7 @@ The following command will bring up CNN-MGP's main help menu:
                The minimun orf lenght, Default 80
                
                ---------------------------------------------------------------------------------------
-               -u 
+               -u
                ---------------------------------------------------------------------------------------
                
                Type 1 for unresolved start codons(ie, ATG, CTG, GTG, TTG) recommanded 
@@ -136,14 +141,10 @@ The following command will bring up CNN-MGP's main help menu:
                Type nucl for the output file to be nucleotide CDS
                Type Prot for the output file to be protein translated gene
                Type Both for two output files 
-
+               
                ---------------------------------------------------------------------------------------
-
+               
+  
 The scripts  support interactive mode as follow 
 * First excute the script 
-* submit each message prompt in the terminal
-
-             
-             
-             
-            
+* submit each message prompt in the terminal             
