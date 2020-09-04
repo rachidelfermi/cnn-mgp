@@ -38,8 +38,8 @@ Support & Bug Reports
 
 Please log an issue on [github issue]().
 
-You can email the CARD curators or developers directly at [rachid.elfermi@gail.com]()
- ff`card@mcmaster.ca <mailto:card@mcmaster.ca>`_
+You can email the CARD curators or developers directly at  `rachid.elfermi@gmail.com <rachid.elfermi@gmail.com>`_.
+ 
 
 Python version
 --------------------
