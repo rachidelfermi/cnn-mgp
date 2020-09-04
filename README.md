@@ -38,7 +38,7 @@ Support & Bug Reports
 
 Please log an issue on [github issue]().
 
-You can email the CARD curators or developers directly at [rachid.elfermi@gail.com](rachid.elfermi@gail.com)
+You can email the CARD curators or developers directly at [rachid.elfermi@gail.com]()
 
 Python version
 --------------------
