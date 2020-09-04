@@ -1,6 +1,4 @@
 
-|build-status| |docs|
-
     
 Convolutional Neural Networks for Metagenomics Gene Prediction(CNN-MGP)
 --------------------------------------------
@@ -91,7 +89,7 @@ Requirements
 Install Dependencies
 --------------------
 
- pip3 install -r requirements.txt
+- pip3 install -r requirements.txt
 - or
 - pip3 install -r requirements.txt --user
 
@@ -146,5 +144,5 @@ The following command will bring up CNN-MGP's main help menu:
                
   
 The scripts  support interactive mode as follow 
-* First excute the script 
-* submit each message prompt in the terminal             
+- First excute the script 
+- submit each message prompt in the terminal             
