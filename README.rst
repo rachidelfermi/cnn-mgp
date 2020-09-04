@@ -140,9 +140,4 @@ The following command will bring up CNN-MGP's main help menu:
                Type Prot for the output file to be protein translated gene
                Type Both for two output files 
                
-               ---------------------------------------------------------------------------------------
-               
-  
-The scripts  support interactive mode as follow 
-- First excute the script 
-- submit each message prompt in the terminal             
+               ---------------------------------------------------------------------------------------           
