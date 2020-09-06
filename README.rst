@@ -31,7 +31,7 @@ Use or reproduction of these materials, in whole or in part, by any commercial o
 Citation
 --------
 
-Alcock et al. 2019. CARD 2020: antibiotic resistome surveillance with the comprehensive antibiotic resistance database. Nucleic Acids Research, gkz935. [Epub ahead of print]  [`CNN-MGP <https://doi.org/10.1007/s12539-018-0313-4>`_]
+Al-Ajlan, A., El Allali, A. CNN-MGP: Convolutional Neural Networks for Metagenomics Gene Prediction. [Epub ahead of print][`CNN-MGP <https://doi.org/10.1007/s12539-018-0313-4>`_]
 
 Support & Bug Reports
 ----------------------
