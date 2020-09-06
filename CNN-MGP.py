@@ -417,9 +417,9 @@ with open(fileName) as file:
             seq += line
         line = file.readline()[:-1]
     sequences.append((descr, seq))
-print(len(sequences), " Fragment found !")
+print(len(sequences), " fragment found")
 
-print('Scanning Fragments for coding ORFS')
+print('Scanning fragments for coding ORFS')
 
 for index, value in tqdm(
         enumerate(sequences)):  # extracting all orf in each fragment then predicting  coding from non-coding orfs
