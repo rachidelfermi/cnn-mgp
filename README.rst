@@ -38,7 +38,7 @@ Support & Bug Reports
 
 Please log an issue on `github issue <https://github.com/rachidelfermi/cnn-mgp/issues>`_.
 
-You can email the CARD curators or developers directly at `rachid.elfermi@gail.com <rachid.elfermi@gail.com>`_.
+You can email the CARD curators or developers directly at `rachid.elfermi@gmail.com <rachid.elfermi@gmail.com>`_.
 
 Python version
 --------------------
@@ -83,7 +83,7 @@ Requirements
 - urllib3==1.25.10
 - Werkzeug==1.0.1
 - wrapt==1.12.1
-- zipp==3.1.0
+- zipp
 
 
 Install Dependencies
