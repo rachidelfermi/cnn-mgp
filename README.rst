@@ -4,7 +4,7 @@ Convolutional Neural Networks for Metagenomics Gene Prediction(CNN-MGP)
 --------------------------------------------
 
 CNN-MGP is a metagenomic ORF finding tool for the prediction of protein coding genes in short, environmental DNA sequences with unknown phylogenetic origin. CNN-MGP is based on 10  models trained on 10 pre-defined GC content ranges. The scripts extract all ORFS, one hot ecoded them afterward feeds the ORFS to the right model. 
-CNN-MGP analyses can be performed via the CNN-MGP website `Coming soon <https://github.com/rachidelfermi/cnn-mgpl>`_, or alternatively you can run the script from the commande line. The instructions below discuss use of CNN-MGP at the command line, following a general overview of how CNN-MGP works.
+CNN-MGP analyses can be performed via the CNN-MGP website `Coming soon <https://cnnmgp.herokuapp.com/>`_, or alternatively you can run the script from the commande line. The instructions below discuss use of CNN-MGP at the command line, following a general overview of how CNN-MGP works.
 
 
 Predicting genes
