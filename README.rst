@@ -43,7 +43,7 @@ You can email the CARD curators or developers directly at `rachid.elfermi@gmail.
 Python version
 --------------------
 
--Install python 3.7.7 (64bit) from the officiel website `Python 3.7.7 <https://www.python.org/downloads/release/python-377/>`_.
+-Install python 3.7  (64bit) or higher from the officiel website `Python 3.7 <https://www.python.org/downloads/release/python-377/>`_.
 
 Requirements
 --------------------
